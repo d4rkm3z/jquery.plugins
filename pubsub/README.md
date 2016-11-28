@@ -1,3 +1,5 @@
+```javascript
+
 function fn1( value ) {
   console.log( value );
   return false;
@@ -15,3 +17,4 @@ $.PubSub( "mailSent" ).subscribe( fn1 );
 // Publisher
 $.PubSub( "mailArrived" ).publish( "hello world!" );
 $.PubSub( "mailSent" ).publish( "woo! mail!" );
+```
